@@ -36,7 +36,7 @@ app.config['UPLOAD_FOLDER'] = 'uploads/'
 
 @app.route('/')
 def matchresume():
-    return render_template("app.html")  # Make sure app.html is inside the templates folder
+    return render_template("app.html")  # Make sure app.html is inside the templates folder and working
 
 @app.route('/upload', methods=['POST'])
 def upload():
